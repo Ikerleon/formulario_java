@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  background-image: url(imagenes/Fondo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenedor{
+  font-family: 'Playfair Display', serif;
+}
+.titulo{
+  text-align: center;
+  margin-top: 0;
+  letter-spacing: 3px;
+}
+.formulario{
+  color: white;
+  background-color: #219ebc;
+  max-width: 400px;
+  padding: 20px 50px;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+.forminput{
+  margin-bottom: 10px;
+}
+.forminput label{
+  display: block;
+  margin-top: 10px;
+}
+.forminput input{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 17px;
+  width: 95%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid white;
+}
+.enviar{
+  font-family: 'Playfair Display', serif;
+  padding: 10px 30px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
+}
+.enviar:hover{
+  background: wheat;
+  transition: 0.5s;
+}
+.error{
+  color: #780000;
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Chivo Mono', monospace;
+}
+.correcto{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Chivo Mono', monospace;
+  margin-bottom: 0;
+} 

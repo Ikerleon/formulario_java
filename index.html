@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos de cliente</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Schibsted+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&family=Playfair+Display&family=Schibsted+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="contenedor">
+    <div class="formulario">
+      <h1 class="titulo">Formulario</h1>
+      <form action="" id="form">
+        <div class="forminput nombre">
+          <input type="text" id="nombre">
+          <label for="nombre">Nombre</label>
+          <p class="error"></p>
+        </div>
+        <div class="forminput apellido">
+          <input type="text" id="apellido">
+          <label for="apellido">Apellido</label>
+          <p class="error"></p>
+        </div>
+        <div class="forminput email">
+          <input type="email" id="email">
+          <label for="email">Correo electronico</label>
+          <p class="error"></p>
+        </div>
+        <div class="forminput telefono">
+          <input type="tel" id="telefono">
+          <label for="telefono">Celular</label>
+          <p class="error"></p>
+        </div>
+        <div class="forminput contrasena">
+          <input type="password" id="contrasena">
+          <label for="contrasena">Contraseña</label>
+          <p class="error"></p>
+        </div>
+        <div class="forminput repetircontrasena">
+          <input type="password" id="repetircontrasena">
+          <label for="repetircontrasena">Repetir contraseña</label>
+          <p class="error"></p>
+        </div>
+        <div>
+          <input type="submit" value="Enviar" class="enviar">
+        </div>
+        <p class="correcto"></p>
+      </form>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
